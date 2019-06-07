@@ -1,11 +1,14 @@
 $(document).ready(function() {
   $("#survey").submit(function(event) {
+    event.preventDefault();
+
     //form variables
     var userAge = parseInt($("#age").val());
     var userExperience = parseInt($("#experience").val());
     var userEnjoy = $("#enjoy").val();
     var userColor = $("#color").val();
     var userSemicolons = $("#semicolons").val();
+
     //score variables
     var javaScriptScore = 0;
     var rubyScore = 0;
@@ -53,12 +56,18 @@ $(document).ready(function() {
 
     if(javaScriptScore > rubyScore && javaScriptScore > pythonScore) {
       $("#default").hide();
+      $("#ruby").hide();
+      $("#python").hide();
       $("#javaScript").show();
     } else if(rubyScore > javaScriptScore && rubyScore > pythonScore) {
       $("#default").hide();
+      $("#javaScript").hide();
+      $("#python").hide();
       $("#ruby").show();
     } else {
       $("#default").hide();
+      $("#javaScript").hide();
+      $("#ruby").hide();
       $("#python").show();
     }
   });
