@@ -1,3 +1,29 @@
+var hideTheme = function() {
+  $(".default, .javaScript, .ruby, .python").hide();
+  $(".panel").removeClass("panel-info panel-warning panel-danger");
+  $(".jumbotron").removeClass("jumbotron-javaScript jumbotron-ruby jumbotron-python");
+};
+
+var javaScriptTheme = function() {
+  $(".panel").addClass("panel-warning");
+  $(".jumbotron").addClass("jumbotron-javaScript");
+  $(".javaScript").slideDown();
+};
+
+var rubyTheme = function() {
+  $(".panel").addClass("panel-danger");
+  $(".jumbotron").addClass("jumbotron-ruby");
+  $(".ruby").slideDown();
+};
+
+var pythonTheme = function() {
+  $(".panel").addClass("panel-info");
+  $(".jumbotron").addClass("jumbotron-python");
+  $(".python").slideDown();
+};
+
+
+
 $(document).ready(function() {
   $("#survey").submit(function(event) {
     event.preventDefault();
@@ -55,21 +81,16 @@ $(document).ready(function() {
       rubyScore += 15;
     }
 
+    //pick theme based on theme's score
     if(javaScriptScore > rubyScore && javaScriptScore > pythonScore) {
-      $(".default, .ruby, .python").hide();
-      $(".panel").removeClass("panel-info panel-danger");
-      $(".panel").addClass("panel-warning");
-      $(".javaScript").slideDown();
+      hideTheme();
+      javaScriptTheme();
     } else if(rubyScore > javaScriptScore && rubyScore > pythonScore) {
-      $(".default, .javaScript, .python").hide();
-      $(".panel").removeClass("panel-info panel-warning");
-      $(".panel").addClass("panel-danger");
-      $(".ruby").slideDown();
+      hideTheme();
+      rubyTheme();
     } else {
-      $(".default, .javaScript, .ruby").hide();
-      $(".panel").removeClass("panel-warning panel-danger");
-      $(".panel").addClass("panel-info");
-      $(".python").slideDown();
+      hideTheme();
+      pythonTheme();
     }
 
     //output user's name to page
