@@ -1,4 +1,4 @@
-.javaScript, .ruby, .python {
+#javaScript, #ruby, #python {
   display: none;
 }
 
@@ -10,7 +10,11 @@ p, ol {
   font-size: 18px;
 }
 
-h1, h3 {
+li {
+  margin-bottom: 8px;
+}
+
+h1, h2 {
   text-align: center;
 }
 
