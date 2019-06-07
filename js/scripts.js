@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     if(userExperience <= 3) {
       javaScriptScore += 15;
-    } else if(experience <= 12) {
+    } else if(userExperience <= 12) {
       pythonScore += 15;
     } else {
       rubyScore += 15;
