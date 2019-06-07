@@ -7,8 +7,9 @@ body {
   background-color: lightgrey;
 }
 
-p, ol {
+p, ol, label {
   font-size: 18px;
+  font-weight: normal;
 }
 
 li {
@@ -27,11 +28,39 @@ img {
   padding: 16px;
 }
 
-label {
-  margin-left: 24px;
-}
-
 .form-control {
   width: 25%;
-  margin-left: 24px;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+
+.jumbotron-javaScript {
+  background-color: #fff;
+}
+
+.jumbotron-javaScript h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
+
+.jumbotron-ruby {
+  background-color: #fff;
+
+}
+
+.jumbotron-ruby h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+}
+
+.jumbotron-python {
+  background-color: #fff;
+}
+
+.jumbotron-python h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue;
 }

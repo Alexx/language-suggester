@@ -15,7 +15,7 @@ $(document).ready(function() {
     var rubyScore = 0;
     var pythonScore = 0;
 
-    // structured logic
+    //structured logic
     if(userAge <= 21) {
       rubyScore += 10;
     } else if(userAge <= 34) {
@@ -72,8 +72,7 @@ $(document).ready(function() {
       $(".python").slideDown();
     }
 
+    //output user's name to page
     $(".nameOutput").text(userName);
-
-    console.log("JavaScript = " + javaScriptScore, "Ruby = " + rubyScore, "Python = " + pythonScore);
   });
 });
