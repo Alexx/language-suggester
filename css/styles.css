@@ -42,8 +42,8 @@ img {
 }
 
 .jumbotron-javaScript h1 {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: yellow;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #d6c400;
 }
 
 .jumbotron-ruby {
@@ -52,8 +52,8 @@ img {
 }
 
 .jumbotron-ruby h1 {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7a0000;
 }
 
 .jumbotron-python {
@@ -61,6 +61,24 @@ img {
 }
 
 .jumbotron-python h1 {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: blue;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #005db5;
+}
+
+.panel-info > .panel-heading {
+  color: #fff;
+  background-color: #005db5;
+  border-color: #1c90ff;
+}
+
+.panel-danger > .panel-heading {
+  color: #fff;
+  background-color: #7a0000;
+  border-color: #d10000;
+}
+
+.panel-warning > .panel-heading {
+  color: #fff;
+  background-color: #d6c400;
+  border-color: #ffff30;
 }

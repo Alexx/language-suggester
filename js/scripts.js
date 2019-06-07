@@ -22,8 +22,6 @@ var pythonTheme = function() {
   $(".python").slideDown();
 };
 
-
-
 $(document).ready(function() {
   $("#survey").submit(function(event) {
     event.preventDefault();
@@ -81,7 +79,7 @@ $(document).ready(function() {
       rubyScore += 15;
     }
 
-    //pick theme based on theme's score
+    //pick theme based on theme score
     if(javaScriptScore > rubyScore && javaScriptScore > pythonScore) {
       hideTheme();
       javaScriptTheme();
