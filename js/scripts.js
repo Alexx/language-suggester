@@ -56,20 +56,19 @@ $(document).ready(function() {
 
     if(javaScriptScore > rubyScore && javaScriptScore > pythonScore) {
       $(".default, .ruby, .python").hide();
-      $(".javaScript").slideDown();
       $(".panel").removeClass("panel-info panel-danger");
       $(".panel").addClass("panel-warning");
+      $(".javaScript").slideDown();
     } else if(rubyScore > javaScriptScore && rubyScore > pythonScore) {
       $(".default, .javaScript, .python").hide();
-      $(".ruby").slideDown();
       $(".panel").removeClass("panel-info panel-warning");
       $(".panel").addClass("panel-danger");
+      $(".ruby").slideDown();
     } else {
       $(".default, .javaScript, .ruby").hide();
-      $(".python").slideDown();
       $(".panel").removeClass("panel-warning panel-danger");
       $(".panel").addClass("panel-info");
+      $(".python").slideDown();
     }
-
   });
 });
