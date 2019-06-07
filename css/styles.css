@@ -1,3 +1,22 @@
+/* .javaScript {
+  display: none;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+p, ol {
+  font-size: 18px;
+}
+
 h1, h3 {
   text-align: center;
+}
+
+img {
+  float: left;
+  width: 150px;
+  height: auto;
+  padding: 16px;
 }
