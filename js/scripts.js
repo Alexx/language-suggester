@@ -55,20 +55,20 @@ $(document).ready(function() {
     }
 
     if(javaScriptScore > rubyScore && javaScriptScore > pythonScore) {
-      $("#default").hide();
-      $("#ruby").hide();
-      $("#python").hide();
-      $("#javaScript").show();
+      $(".default").hide();
+      $(".ruby").hide();
+      $(".python").hide();
+      $(".javaScript").show();
     } else if(rubyScore > javaScriptScore && rubyScore > pythonScore) {
-      $("#default").hide();
-      $("#javaScript").hide();
-      $("#python").hide();
-      $("#ruby").show();
+      $(".default").hide();
+      $(".javaScript").hide();
+      $(".python").hide();
+      $(".ruby").show();
     } else {
-      $("#default").hide();
-      $("#javaScript").hide();
-      $("#ruby").hide();
-      $("#python").show();
+      $(".default").hide();
+      $(".javaScript").hide();
+      $(".ruby").hide();
+      $(".python").show();
     }
   });
 });
