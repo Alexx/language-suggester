@@ -55,20 +55,20 @@ $(document).ready(function() {
     }
 
     if(javaScriptScore > rubyScore && javaScriptScore > pythonScore) {
-      $(".default").hide();
-      $(".ruby").hide();
-      $(".python").hide();
+      $(".default, .ruby, .python").hide();
       $(".javaScript").slideDown();
+      $(".panel").removeClass("panel-info panel-danger");
+      $(".panel").addClass("panel-warning");
     } else if(rubyScore > javaScriptScore && rubyScore > pythonScore) {
-      $(".default").hide();
-      $(".javaScript").hide();
-      $(".python").hide();
+      $(".default, .javaScript, .python").hide();
       $(".ruby").slideDown();
+      $(".panel").removeClass("panel-info panel-warning");
+      $(".panel").addClass("panel-danger");
     } else {
-      $(".default").hide();
-      $(".javaScript").hide();
-      $(".ruby").hide();
+      $(".default, .javaScript, .ruby").hide();
       $(".python").slideDown();
+      $(".panel").removeClass("panel-warning panel-danger");
+      $(".panel").addClass("panel-info");
     }
 
   });

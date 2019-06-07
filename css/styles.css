@@ -26,11 +26,11 @@ img {
   padding: 16px;
 }
 
-.form-control {
-  width: 25%;
+label {
   margin-left: 24px;
 }
 
-label {
+.form-control {
+  width: 25%;
   margin-left: 24px;
 }
