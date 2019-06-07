@@ -3,6 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     //form variables
+    var userName = $("#name").val();
     var userAge = parseInt($("#age").val());
     var userExperience = parseInt($("#experience").val());
     var userEnjoy = $("#enjoy").val();
@@ -24,7 +25,7 @@ $(document).ready(function() {
     }
 
     if(userExperience <= 3) {
-      javaScriptScore+= 15;
+      javaScriptScore += 15;
     } else if(experience <= 12) {
       pythonScore += 15;
     } else {
@@ -48,7 +49,7 @@ $(document).ready(function() {
 
     if(userSemicolons === "Yes") {
       javaScriptScore += 15;
-    } else if (semicolons === "No") {
+    } else if (userSemicolons === "No") {
       pythonScore += 15;
     } else {
       rubyScore += 15;
@@ -70,5 +71,9 @@ $(document).ready(function() {
       $(".panel").addClass("panel-info");
       $(".python").slideDown();
     }
+
+    $(".nameOutput").text(userName);
+
+    console.log("JavaScript = " + javaScriptScore, "Ruby = " + rubyScore, "Python = " + pythonScore);
   });
 });
