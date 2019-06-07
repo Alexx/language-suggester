@@ -1,6 +1,6 @@
 # _Portfolio_
 
-#### _A language programming language suggester, 6-7-2019_
+#### _A programming language suggester, 6-7-2019_
 
 #### _Author: Alex Siegberg_
 
