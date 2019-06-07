@@ -35,20 +35,28 @@ img {
 .jumbotron {
   color: #fff;
   background-color: #01ad7c;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-color: #11f9b7;
 }
 
 
 .jumbotron-javaScript {
   background-color: #efd513;
+  border-color: #ffff30;
 }
 
 .jumbotron-ruby {
   background-color: #7a0000;
+  border-color: #d10000;
 
 }
 
 .jumbotron-python {
   background-color: #005db5;
+  border-color: #1c90ff;
 }
 
 .panel-primary > .panel-heading {

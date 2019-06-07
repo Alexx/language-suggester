@@ -59,7 +59,7 @@ $(document).ready(function() {
     if(userEnjoy === "Web Design") {
       javaScriptScore += 20;
       rubyScore += 20;
-    } else {
+    } else if (userEnjoy === "Data Science") {
       pythonScore += 20;
     }
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
       javaScriptScore += 10;
     } else if(userColor === "Red") {
       rubyScore += 10;
-    } else {
+    } else if (userColor === "Blue") {
       pythonScore += 10;
     }
 
