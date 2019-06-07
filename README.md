@@ -10,9 +10,7 @@ _This web page will ask a series of question to help suggest a programming langu
 
 ## Setup/Installation
 
-This App can be viewed on GitHub Pages (linked below)
-
-_[GitHub Pages](http://alexx.github.io/language-suggester/)_
+None
 
 ## Licensing
 
