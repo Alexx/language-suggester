@@ -39,7 +39,7 @@ img {
 
 
 .jumbotron-javaScript {
-  background-color: #d6c400;
+  background-color: #efd513;
 }
 
 .jumbotron-ruby {
@@ -71,6 +71,6 @@ img {
 
 .panel-warning > .panel-heading {
   color: #fff;
-  background-color: #d6c400;
+  background-color: #efd513;
   border-color: #ffff30;
 }

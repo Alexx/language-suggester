@@ -75,7 +75,7 @@ $(document).ready(function() {
       javaScriptScore += 15;
     } else if (userSemicolons === "No") {
       pythonScore += 15;
-    } else {
+    } else if (userSemicolons === "Sometimes") {
       rubyScore += 15;
     }
 
