@@ -33,36 +33,28 @@ img {
 }
 
 .jumbotron {
-  background-color: #fff;
+  color: #fff;
+  background-color: #01ad7c;
 }
 
 
 .jumbotron-javaScript {
-  background-color: #fff;
-}
-
-.jumbotron-javaScript h1 {
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #d6c400;
+  background-color: #d6c400;
 }
 
 .jumbotron-ruby {
-  background-color: #fff;
+  background-color: #7a0000;
 
-}
-
-.jumbotron-ruby h1 {
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #7a0000;
 }
 
 .jumbotron-python {
-  background-color: #fff;
+  background-color: #005db5;
 }
 
-.jumbotron-python h1 {
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #005db5;
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #01ad7c;
+  border-color: #11f9b7;
 }
 
 .panel-info > .panel-heading {
