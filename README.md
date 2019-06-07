@@ -6,7 +6,7 @@
 
 ## Description
 
-_This web page will ask a series of question to help suggest a programming language to them._
+_This web page will ask a series of question to help suggest a programming language to the user._
 
 ## Setup/Installation
 

@@ -58,17 +58,18 @@ $(document).ready(function() {
       $(".default").hide();
       $(".ruby").hide();
       $(".python").hide();
-      $(".javaScript").show();
+      $(".javaScript").slideDown();
     } else if(rubyScore > javaScriptScore && rubyScore > pythonScore) {
       $(".default").hide();
       $(".javaScript").hide();
       $(".python").hide();
-      $(".ruby").show();
+      $(".ruby").slideDown();
     } else {
       $(".default").hide();
       $(".javaScript").hide();
       $(".ruby").hide();
-      $(".python").show();
+      $(".python").slideDown();
     }
+
   });
 });
