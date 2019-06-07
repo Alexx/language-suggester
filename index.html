@@ -9,37 +9,41 @@
   </head>
   <body>
     <div class="container">
-      <h1>Progamming Language Suggester</h1>
-      <h3>Which language is best suited for you?</h3>
+
+      <div class="jumbotron">
+        <h1>Progamming Language Suggester</h1>
+        <h3>Which language is best suited for you?</h3>
+      </div>
+
       <div class="row">
         <div class="col-md-6">
           <h3>Survey:</h3>
           <form id="survey">
 
             <div class="form-group">
-              <label for="quest1">Age</label>
-              <input id="quest1" class="form-control" type="number">
+              <label for="age">How old are you?</label>
+              <input id="age" class="form-control" type="number">
             </div>
 
             <div class="form-group">
-              <label for="quest2">Question Two</label>
-              <input id="quest2" class="form-control" type="number">
+              <label for="experience">How many months of experience do you have with programming?</label>
+              <input id="experience" class="form-control" type="number">
             </div>
 
             <div class="form-group">
-              <label for="quest3">Do you enjoy Web Design or Data Science more?</label>
-              <select id="quest3" class="form-control">
+              <label for="enjoy">Do you enjoy Web Design or Data Science more?</label>
+              <select id="enjoy" class="form-control">
                 <option>Web Design</option>
                 <option>Data Science</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label for="quest4">Question Four:</label>
+              <label for="quest4"></label>
               <select id="quest4" class="form-control">
-                <option>Option1</option>
-                <option>Option2</option>
-                <option>Option3</option>
+                <option>No experience</option>
+                <option>1-5 months</option>
+                <option>6+ months</option>
               </select>
             </div>
 
@@ -90,9 +94,7 @@
           </div>
 
         </div>
-
       </div>
-
     </div>
   </body>
 </html>
