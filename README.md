@@ -11,7 +11,9 @@ _This web page will ask a series of question to help suggest a programming langu
 ## Setup/Installation
 
 Step 1: Clone this repository to your desktop
+
 Step 2: Open the index.html file
+
 Step 3: Fill out the form and press submit
 
 or view on GitHub Pages linked below
