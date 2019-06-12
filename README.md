@@ -14,6 +14,10 @@ Step 1: Clone this repository to your desktop
 Step 2: Open the index.html file
 Step 3: Fill out the form and press submit
 
+or view on GitHub Pages linked below
+
+_[GitHub Pages](http://alexx.github.io/language-suggester/)_
+
 ## Licensing
 
 MIT License
